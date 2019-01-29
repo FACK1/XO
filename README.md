@@ -1,7 +1,10 @@
 # XO: A game made with React.JS
 
 ## What is XO?
-XO is a singlePageApp made with the frontEnd library React.js. The XO game is commonly known in English as tic-tac-toe. 
+XO is a singlePageApp made with the frontEnd library React.js. The XO game is commonly known in English as Tic-Tac-Toe. 
+
+### Rough sketches of the app:
+--To be continued
 
 ## User Journey: 
 A user Journey is compromised of multiple user stories. A user story is what a user can do with and how can they benefit from each feature on the app
