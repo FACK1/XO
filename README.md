@@ -2,6 +2,6 @@
 XO game with react
 
  # User Journeys 
-  - As a user I can enter my name and click play and the other player.
-  - As a user I can play X-O.
-  - As a user I can see the winner.
+  - As users we want to be able to enter our names and click play.
+  - As users we want to be able to interact with the game.
+  - As users we want to be able to see the winner.
