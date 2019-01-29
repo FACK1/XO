@@ -1,0 +1,36 @@
+{
+  "name": "XO",
+  "version": "1.0.0",
+  "description": "XO game with react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACK1/XO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FACK1/XO/issues"
+  },
+  "homepage": "https://github.com/FACK1/XO#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "eslint": "^5.12.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-react": "^7.12.4",
+    "parcel-bundler": "^1.11.0"
+  },
+  "dependencies": {
+    "eslint-config-react-minimal": "^1.0.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
