@@ -22,7 +22,7 @@ render(){
 if (!this.state.submitted) {
   return(<StartPlay handleChange={this.handleChange} startplay={this.startplay}/>)
 }else{
-  return (<Header/>)
+  return (<Header firstName={this.state.firstName} secondName={this.state.secondName}/>)
 }
 
 
