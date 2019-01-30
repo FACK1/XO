@@ -7,9 +7,7 @@ class Home extends Component {
   state = {
     firstName: "",
     secondName: "",
-    submitted: true,
-    index:[],
-    turn :"X",
+    submitted: false,
   };
 
   handleChange = ({ target: { value, name } }) => {
