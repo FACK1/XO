@@ -20,6 +20,7 @@ A user Journey is compromised of multiple user stories. A user story is what a u
 1- Clone our repo, by typing in your terminal:
 
   Using`HTTP`: `git clone https://github.com/FACK1/XO.git`
+  
   Using `SSH`: `git clone git@github.com:FACK1/XO.git`
   
 2- Run `npm i` to install depdendencies and dev dependencies.
