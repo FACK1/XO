@@ -7,7 +7,9 @@ class Home extends Component {
   state = {
     firstName: "",
     secondName: "",
-    submitted: false
+    submitted: true,
+    index:[],
+    turn :"X",
   };
 
   handleChange = ({ target: { value, name } }) => {
@@ -18,9 +20,6 @@ class Home extends Component {
     this.setState({ submitted: true });
   };
 
-  renderSquare = num => {
-    return <square value={i} />;
-  };
 
   render() {
     if (!this.state.submitted) {
@@ -37,7 +36,7 @@ class Home extends Component {
             firstName={this.state.firstName}
             secondName={this.state.secondName}
           />
-          <Game renderSquare={this.renderSquare} />
+          <Game />
         </div>
       );
     }
