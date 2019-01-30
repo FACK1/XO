@@ -1,10 +1,13 @@
 import React, {Component} from "react";
+import EndPlay from "../EndPlay/index.js";
 
 import "./index.css";
 class Game extends Component {
   state = {
     turn :"X",
-    game:Array(9).fill('')
+    game:Array(9).fill(''),
+    endGame:0,
+    winner:''
   };
     press = (e) => {
       if (this.state.game[e.dataset.value]=='') {
@@ -18,7 +21,12 @@ class Game extends Component {
     });
   }
     var theWinner=this.win();
-    console.log(theWinner);
+    if (theWinner=='X' || theWinner=='O') {
+        this.setState({
+          winner:theWinner,
+          endGame:1});
+      console.log(theWinner);
+    }
     };
     win = () => {
       var moves = [[0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6], [0, 1, 2], [3, 4, 5], [6, 7, 8]];
@@ -30,7 +38,7 @@ class Game extends Component {
     };
 
   render(){
-
+    if (this.state.endGame==0) {
     return (
       <div>
           <div id="board" onClick={(e)=>this.press(e.target)}>
@@ -48,8 +56,14 @@ class Game extends Component {
                   <div className="square" data-value="8"></div>
 
         </div>
-      </div>
-    );
+      </div>)
+
+    }else {
+      return(
+      <EndPlay  winner={this.state.winner}/>
+)
+    }
+
   }
 }
 
