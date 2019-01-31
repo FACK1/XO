@@ -1,8 +1,9 @@
 import React from "react";
+import "./index.css";
+
 const EndPlay = (props)=>{
   return (
-  <div>
-    <h1>Tic-Tac-Toe</h1>
+  <div className="background">
     <h4>The Winner is: {props.winner} </h4>
   </div>
   )

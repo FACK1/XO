@@ -1,10 +1,21 @@
 .square{
-    border: 1px solid #999;
+    border: 1px solid #49c5b6;
     float: left;
-    height: 34px;
-    width: 34px;
+    height: 100px;
+    width: 100px;
+    color: white  ;
+      font-size: 55px;
+      text-align: center;
+      margin-top: 10px;
+      line-height: 113px;
+      background-color: #96bdb5
 }
 .row{
   clear: both;
   display: block;
+}
+
+.game{
+  margin: auto;
+  margin-left: 450px; 
 }

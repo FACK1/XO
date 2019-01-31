@@ -25,7 +25,6 @@ class Game extends Component {
         this.setState({
           winner:theWinner,
           endGame:1});
-      console.log(theWinner);
     }
     };
     win = () => {
@@ -41,7 +40,7 @@ class Game extends Component {
     if (this.state.endGame==0) {
     return (
       <div>
-          <div id="board" onClick={(e)=>this.press(e.target)}>
+          <div id="board" className="game" onClick={(e)=>this.press(e.target)}>
 
                   <div className="square" data-value="0"></div>
                   <div className="square" data-value="1"></div>
