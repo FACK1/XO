@@ -3,7 +3,7 @@
 ## What is XO?
 XO is a singlePageApp made with the frontEnd library React.js. The XO game is commonly known in English as Tic-Tac-Toe. 
  
-## Website link :[XO-game]https://vigorous-bartik-b5ffc8.netlify.com/)
+## Website link :[XO-game](https://vigorous-bartik-b5ffc8.netlify.com/)
 
 ##  File structure:
 - [ ] public
