@@ -1,10 +1,15 @@
 import React from "react";
+import "./index.css";
+
 const Header = (props)=>{
   return (
   <div>
-    <h1>x-o game</h1>
-    <h4>first player: {props.firstName} </h4>
-    <h4>second player: {props.secondName}</h4>
+    <h1 className="header">x-o game</h1>
+    <div className="names">
+    <h4 className="left">first player: {props.firstName} </h4>
+
+    <h4 className="right"> second player: {props.secondName}</h4>
+    </div>
   </div>
   )
 }

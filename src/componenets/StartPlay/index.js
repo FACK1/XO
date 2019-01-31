@@ -1,8 +1,9 @@
 import React from 'react';
-
+import "./index.css";
  const StartPlay =(props)=>{
   return (
-    <form action="">
+    <div className="background">
+    <form action="" >
       <input type="text"
         placeholder="Player first name"
         onChange ={props.handleChange}
@@ -17,6 +18,7 @@ import React from 'react';
      onClick ={props.startplay}
      >Start Play!</button>
     </form>
+    </div>
   )
 }
 

@@ -1,0 +1,12 @@
+
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 90px;
+  color: white;
+  height: 575px;
+  border-radius: 5px;
+  background-image: linear-gradient(-90deg, #49c5b6, #96bdb5);
+  padding: 20px;
+}
